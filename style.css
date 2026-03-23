@@ -1,0 +1,87 @@
+</> CSS
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #111;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero button {
+    padding: 12px 20px;
+    border: none;
+    background: white;
+    color: #007bff;
+    cursor: pointer;
+}
+
+/* SERVICES */
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 20px;
+    width: 250px;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px;
+    background: #eee;
+    text-align: center;
+}
+
+form input, form textarea {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
