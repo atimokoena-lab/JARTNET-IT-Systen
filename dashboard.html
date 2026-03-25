@@ -1,0 +1,52 @@
+</> HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JARTNET Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>JARTNET Admin Dashboard</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="support.html">Support</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>IT Support Dashboard</h2>
+  <p>Manage your client requests</p>
+</section>
+
+<section class="dashboard">
+
+  <h2>Open Tickets</h2>
+
+  <div class="ticket">
+    <h3>Network Issue - Warehouse</h3>
+    <p>Status: <strong style="color:red;">Open</strong></p>
+    <p>Client: ABC Company</p>
+    <button onclick="updateStatus(this)">Mark as In Progress</button>
+  </div>
+
+  <div class="ticket">
+    <h3>WiFi Problem</h3>
+    <p>Status: <strong style="color:orange;">In Progress</strong></p>
+    <p>Client: XYZ Ltd</p>
+    <button onclick="updateStatus(this)">Mark as Done</button>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2026 JARTNET IT Systems</p>
+</footer>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>

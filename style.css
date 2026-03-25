@@ -158,3 +158,16 @@ select {
   margin: 10px auto;
   padding: 10px;
 }
+
+.dashboard {
+  padding: 50px;
+  text-align: center;
+}
+
+.ticket {
+  background: #f4f4f4;
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
